@@ -90,6 +90,15 @@ footer {
     text-align: center;
 }
 
+.no-scrollbars {
+    overflow: auto;
+    scrollbar-width: none;
+  }
+  
+  .no-scrollbars::-webkit-scrollbar {
+    display: none;
+  }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;

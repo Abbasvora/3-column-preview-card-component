@@ -1,7 +1,7 @@
-body{
+body {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    
+
     background-color: hsl(0, 0%, 95%);
     height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@ body{
     flex-direction: column;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,39 +19,39 @@ body{
     /* padding: 15px 35px; */
 }
 
-.column{
+.column {
     padding: 35px 35px;
 }
 
-.column:nth-of-type(1){
+.column:nth-of-type(1) {
     background-color: hsl(31, 77%, 52%);
     border-radius: 15px 0 0 15px;
 }
 
-.column:nth-of-type(2){
+.column:nth-of-type(2) {
     background-color: hsl(184, 100%, 22%);
 }
 
-.column:nth-of-type(3){
+.column:nth-of-type(3) {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 15px 15px 0;
 }
 
-.column h1{
+.column h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
     font-weight: 700;
     font-size: 2.5em;
 }
 
-.column p{
+.column p {
     margin-top: 40px;
     line-height: 1.8;
     margin-bottom: 90px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-.column button{
+.column button {
     border-radius: 45px;
     padding: 17px 35px;
     font-size: 17px;
@@ -61,48 +61,36 @@ body{
     transition: 0.4s ease;
 }
 
-.column:nth-of-type(1) button{
+.column:nth-of-type(1) button {
     color: hsl(31, 77%, 52%);
 }
 
-.column:nth-of-type(2) button{
+.column:nth-of-type(2) button {
     color: hsl(184, 100%, 22%);
 }
 
-.column:nth-of-type(3) button{
+.column:nth-of-type(3) button {
     color: hsl(179, 100%, 13%);
 }
 
-.column:nth-of-type(1) button:hover{
-    color: hsl(0, 0%, 95%);
-    background-color: hsl(31, 77%, 52%);
+.column button:hover {
     cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
 }
 
-.column:nth-of-type(2) button:hover{
-    color: hsl(0, 0%, 95%);
-    background-color: hsl(184, 100%, 22%);
-    cursor: pointer;
-}
-
-.column:nth-of-type(3) button:hover{
-    color: hsl(0, 0%, 95%);
-    background-color: hsl(179, 100%, 13%);
-    cursor: pointer;
-}
-
-footer{
+footer {
     position: absolute;
     bottom: 0;
-    
+
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
-  }
+}

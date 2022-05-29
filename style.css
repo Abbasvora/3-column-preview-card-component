@@ -91,6 +91,11 @@ body{
     cursor: pointer;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    
+}
 
 .attribution {
     font-size: 11px;
@@ -99,4 +104,5 @@ body{
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
   }

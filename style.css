@@ -1,7 +1,7 @@
 body{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    color: hsla(0, 0%, 100%, 0.75);
+    
     background-color: hsl(0, 0%, 95%);
     height: 100vh;
     display: flex;
@@ -39,6 +39,7 @@ body{
 
 .column h1{
     font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
     font-weight: 700;
     font-size: 2.5em;
 }
@@ -47,6 +48,47 @@ body{
     margin-top: 40px;
     line-height: 1.8;
     margin-bottom: 90px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.column button{
+    border-radius: 45px;
+    padding: 17px 35px;
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    transition: 0.4s ease;
+}
+
+.column:nth-of-type(1) button{
+    color: hsl(31, 77%, 52%);
+}
+
+.column:nth-of-type(2) button{
+    color: hsl(184, 100%, 22%);
+}
+
+.column:nth-of-type(3) button{
+    color: hsl(179, 100%, 13%);
+}
+
+.column:nth-of-type(1) button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.column:nth-of-type(2) button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.column:nth-of-type(3) button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
 }
 
 
